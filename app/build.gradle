@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.2'
     defaultConfig {
         applicationId "eu.pintergabor.intlkeyboard.inputmethod"
-        minSdkVersion 19
+        minSdkVersion 14
         targetSdkVersion 27
         versionCode 100
         versionName "1.0"
@@ -19,6 +19,8 @@ android {
         debug {
             debuggable true
         }
+    }
+    productFlavors {
     }
 }
 
